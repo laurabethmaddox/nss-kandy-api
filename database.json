@@ -1,0 +1,80 @@
+{
+    "locations": [
+        {
+            "id": 1, 
+            "address": "1283 Delbert Streets", 
+            "handicapAccessible": true
+        },
+        {
+            "id": 2, 
+            "address": "316 Greenholt Causeway", 
+            "handicapAccessible": false
+        },
+        {
+            "id": 3, 
+            "address": "8007 Hermann Station", 
+            "handicapAccessible": true
+        },
+        {
+            "id": 4, 
+            "address": "298 Hilll Common", 
+            "handicapAccessible": false
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "candyName": "Jolly Ranchers",
+            "price": 4.00,
+            "productTypeId": 1       
+        },
+        {
+            "id": 2,
+            "candyName": "Coca Cola",
+            "price": 1.50,
+            "productTypeId": 4      
+        },
+        {
+            "id": 3,
+            "candyName": "Reeses",
+            "price": 3.00,
+            "productTypeId": 3       
+        },
+        {
+            "id": 4,
+            "candyName": "Mint",
+            "price": 2.20,
+            "productTypeId": 2       
+        },
+        {
+            "id": 5,
+            "candyName": "Sweet Tarts",
+            "price": "5.50",
+            "productTypeId": 1       
+        },
+        {
+            "id": 6,
+            "candyName": "Hershey Bar",
+            "price": 3.50,
+            "productTypeId": 3       
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "hard candy"
+        },
+        {
+            "id": 2,
+            "type": "gum"
+        },
+        {
+            "id": 3,
+            "type": "chocolate"
+        },
+        {
+            "id": 4,
+            "type": "sodas"
+        }
+    ]
+}
